@@ -1,0 +1,36 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+        "name": "Django",
+        "type": "debugpy",
+        "request": "launch",
+        "program": "/mobile_computing/backend/manage.py",
+        "args": ["runserver"],
+        "django": true
+        },
+        {
+            "name": "tastewise",
+            "cwd": "tastewise",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "tastewise (profile mode)",
+            "cwd": "tastewise",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "tastewise (release mode)",
+            "cwd": "tastewise",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
