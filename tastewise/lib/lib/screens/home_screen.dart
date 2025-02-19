@@ -14,7 +14,7 @@ class HomeScreen extends StatelessWidget {
               MaterialPageRoute(builder: (context) => LoginScreen()),
             );
           },
-          child: Text("Go to Login"),
+          child: Text("Welcome to the APP!"),
         ),
       ),
     );
